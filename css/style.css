@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+#currentTime {
+  width: 100%;
+  margin-top: 33vh;
+}
+
+#currentTime strong {
+  font-size: 100px;
+}
+
+.login-box {
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.login-box input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 290px;
+  height: 40px;
+  font-size: 30px;
+  outline: none;
+  background: none;
+}
+
+.login-box span {
+  font-size: 32px;
+}
+
+.todo-box {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.todo-box input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 190px;
+  height: 30px;
+  font-size: 22px;
+  outline: none;
+  background: none;
+}
+
+.todo-box ul {
+  margin: 4vh auto 0;
+  max-width: 30%;
+  height: 21vh;
+  overflow: auto;
+  padding: 0;
+}
+
+.todo-box ul>li {
+  list-style: none;
+  margin-top: 1vh;
+}
+
+.todo-box ul>li>span {
+  font-size: 30px;
+}
+
+.todo-box ul>li>button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5vh;
+  font-size: 1.8vh;
+}
